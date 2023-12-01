@@ -1,5 +1,6 @@
 #pragma once
 #include "CLservices.h"
+#include <string>
 
 namespace POOPBL6SOLUTION {
 
@@ -48,7 +49,7 @@ namespace POOPBL6SOLUTION {
 	private: System::Windows::Forms::TextBox^ txt_adresse;
 
 
-
+	private: bool i;
 	private: NS_Comp_Svc::CLservices^ oSvc;
 	private: System::Data::DataSet^ oDs;
 	private: System::Windows::Forms::Label^ firstName;
@@ -266,10 +267,13 @@ namespace POOPBL6SOLUTION {
 	}
 
 	private: System::Void txt_prenom_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+
 	}
 	private: System::Void txt_nom_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void txt_adresse_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+		this->i = !(this->txt_adresse->Text == "");
+		this->adresse->Text = L"adresse" + i;
 	}
 	private: System::Void txt_id_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	}
