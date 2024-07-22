@@ -25,7 +25,7 @@
 ### Class diagram
 ![/chemin/access/image.jpg "Class diagram"](https://github.com/FlorentMS/POO_PBL6_Solution/blob/e4aa4df9c9dea5f552bbfc3c05a26401894dcbec/POO_PBL6_Class.drawio.png)
 
-### Sequence diagrams
+<!--- ### Sequence diagrams
 ![/chemin/access/image.jpg "Loading data diagram"]()  
 *Loading data diagram*
 
@@ -43,3 +43,4 @@
 ### Activities diagrams
 ![/chemin/access/image.jpg "Launch code diagram"]()  
 *Launch code diagram*
+--->
